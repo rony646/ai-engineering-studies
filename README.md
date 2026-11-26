@@ -2,10 +2,6 @@
 
 Notes and small programs from my AI engineering studies. The work moves from a local transformer, through the OpenAI API, to local apps with Ollama. The code lives in `source/`.
 
-## Short description
-
-Study notes in AI engineering: local text generation with Hugging Face (distilgpt2), prompting patterns on the OpenAI API, conversation memory, JSON chat logs, and Ollama apps for a custom model, categorization, function calling, PDF retrieval-augmented generation, and voice.
-
 ## What I practiced
 
 **Local generation.** `source/intro_transformers.py` and `source/intro_transfomer_enhanced.py` load `distilgpt2` with Hugging Face `transformers` and generate text on the machine. That is where tokenization, weights, and sampling show up.
